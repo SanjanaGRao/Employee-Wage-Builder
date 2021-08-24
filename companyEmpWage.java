@@ -1,10 +1,10 @@
 
 public class companyEmpWage {
 	
-		 private final String company;  
-		 private final int empRate;     
-		 private final int workingDays; 
-		 private final int maxHrs;      
+		 public final String company;  
+		 public final int empRate;     
+		 public final int workingDays; 
+		 public final int maxHrs;      
 		 public int totalWage;
 		
 		public companyEmpWage(String company,int empRate,int workingDays,int maxHrs)
@@ -22,7 +22,7 @@ public class companyEmpWage {
 		
 		@Override
 		public String toString() {
-			return "Total Employee Wage of the company "+company+ " is: "+totalWage;
-					}
+			return "Total Employee Wage of the company "+company+ " is: Rs. "+totalWage;
+					} 
 
 }
